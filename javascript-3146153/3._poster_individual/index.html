@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSTER INTERACTIVO</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
+<body>
+
+    <body>
+    <div class="juego">
+        <div class="hud">
+            <div id="mensaje-temporal"></div>
+            <div class="hud-item">
+                <img src="./imagenes/Diamante.png" alt="Diamante">
+                <span id="contador-diamantes">0</span>
+            </div>
+        </div>
+
+        <div class="escena">
+            <img src="imagenes/Fondo.png" alt="Fondo" class="fondo" />
+            <img src="imagenes/steve.png" alt="Steve" class="steve" onclick="saltarSteve()" ondblclick="acelerarSteve()" />
+            <img src="imagenes/creeper.png" alt="Creeper" class="creeper" onclick="detonarCreeper()" />
+            <img src="imagenes/diamante.png" alt="Diamante" class="diamante" onclick="recogerDiamante()" />
+        </div>
+
+        <div id="mensaje-temporal"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+ <script src="./script.js"></script>
+</body>
+</html>
